@@ -21,7 +21,7 @@ void conjugategradient(matrix_t A, vector_t b, vector_t x, double r_tol){
     // printf("\n>>Counter: k = %d\n", k);
 
     // Initial guess x = 0
-    printf("\nSet initial guess to zero\n");
+    printf("\nSet initial guess\n");
     printf("\nInitial guess\n");
     // zero_v(x);
     print_v(x);

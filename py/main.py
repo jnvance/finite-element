@@ -24,7 +24,7 @@ if __name__ == "__main__":
     # print A
 
     topo , x , y , nodes , b_nodes = read_msh("mesh/square.msh")
-    
+
     A = gradu_gradv(topo,x,y)
     F = f_v(topo,x,y)
 

@@ -10,7 +10,6 @@ int main(int argc, char const *argv[]){
     // matrix_vector_tests();
     // solver_tests();
 
-    
 
 
 

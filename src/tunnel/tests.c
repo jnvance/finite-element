@@ -13,8 +13,8 @@ void solver_tests(){
     printf("** Generate a positive semi-definite symmetric matrix A **\n" );
     matrix_t A;
     allocate_m(&A, n, n);
-    double Adata[9] = {2,-1,0,-1,2,-1,0,-1,2};
-    // double Adata[4] = {4,1,1,3};
+    // double Adata[9] = {2,-1,0,-1,2,-1,0,-1,2};
+    double Adata[4] = {4,1,1,3};
     for (size_t i = 0; i < n; i++)
         for (size_t j = 0; j < n; j++)
             assign_mij(A,i,j,Adata[i*n+j]);
