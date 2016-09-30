@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    FILE *ptr;
+
+    int i;
+    double* buffer;
+
+    buffer = malloc(16*sizeof(double));
+
+    ptr = fopen("np_array.npy","rb");
+
+    fread(buffer,sizeof(buffer),1,ptr);
+
+    for(i = 0; i<16; i++)
+        printf("%f ", buffer[i]);
+        
+    ferr(buffer)
+
+    fclose(ptr);
+    return 0;
+}
